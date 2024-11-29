@@ -1,0 +1,422 @@
+{C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/top_module.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/top_module.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/top_module.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/top_module.sv(1): (vlog-13233) Design unit "top_module_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package top_module_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_test_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_main_seq1
+-- Importing package SPI_sequence_pkg
+-- Importing package SPI_main_seq2
+-- Importing package SPI_main_seq3
+-- Importing package SPI_main_seq4
+-- Importing package SPI_reset_seq
+-- Importing package SPI_env_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_monitor
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_scoreboard_pak
+-- Importing package SPI_coverage_pkg
+-- Importing package ram_config_pkg
+-- Importing package ram_main_seq1
+-- Importing package ram_sequence_pkg
+-- Importing package ram_main_seq2
+-- Importing package ram_main_seq3
+-- Importing package ram_reset_seq
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_scoreboard_pak
+-- Importing package ram_coverage_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_wrapper_G_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_wrapper_G_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_wrapper_G_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_sequence.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq1.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq1.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_main_seq1
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq1.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_coverage_collector.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_coverage_collector.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_coverage_collector.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ram_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_wrapper_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_wrapper_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface SPI_wrapper_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq3.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq3.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_main_seq3
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq3.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_scoreboard_pak
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_scoreboard.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_only_write_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_only_write_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_main_seq1
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_only_write_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_sequence.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_only_read_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_only_read_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_main_seq2
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_only_read_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_coverage_collector.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_coverage_collector.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_coverage_collector.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_sequence_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_config_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_agent.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_config_obj.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_config_obj.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_config_obj.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_monitor
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_monitor.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Dp_Sync_RAM
+
+Top level modules:
+	Dp_Sync_RAM
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_sequence_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_config_pkg
+-- Importing package ram_scoreboard_pak
+-- Importing package ram_coverage_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_env.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM_GOLD
+
+Top level modules:
+	RAM_GOLD
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq2.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq2.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_main_seq2
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq2.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_agent_pkg
+-- Importing package SPI_monitor
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_config_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_agent.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_reset_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_reset_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_reset_seq
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_reset_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_test_pkg
+-- Importing package SPI_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_main_seq1
+-- Importing package SPI_sequence_pkg
+-- Importing package SPI_main_seq2
+-- Importing package SPI_main_seq3
+-- Importing package SPI_main_seq4
+-- Importing package SPI_reset_seq
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_test.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package SPI_env_pkg
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_monitor
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_scoreboard_pak
+-- Importing package SPI_coverage_pkg
+-- Importing package ram_config_pkg
+-- Importing package ram_main_seq1
+-- Importing package ram_sequence_pkg
+-- Importing package ram_main_seq2
+-- Importing package ram_main_seq3
+-- Importing package ram_reset_seq
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_scoreboard_pak
+-- Importing package ram_coverage_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_monitor
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_monitor.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_config_obj.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_config_obj.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_config_obj.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ram_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq4.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq4.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_main_seq4
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_main_seq4.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package SPI_agent_pkg
+-- Importing package SPI_monitor
+-- Importing package SPI_sequence_pkg
+-- Importing package SPI_driver_pkg
+-- Importing package SPI_sequencer_pkg
+-- Importing package SPI_config_pkg
+-- Importing package SPI_scoreboard_pak
+-- Importing package SPI_coverage_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_env.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_G_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_G_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ram_G_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_read_write_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_read_write_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_main_seq3
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_read_write_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_slave_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_slave_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module SPI_slave_G
+
+Top level modules:
+	SPI_slave_G
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_Slave.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_Slave.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Warning: C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_Slave.sv(1): (vlog-13233) Design unit "SPI_Slave_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package SPI_Slave_sv_unit
+-- Compiling module SPI_Slave
+
+Top level modules:
+	SPI_Slave
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_score_board.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_score_board.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_scoreboard_pak
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_score_board.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_reset_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_reset_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package SPI_reset_seq
+-- Importing package SPI_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/SPI_reset_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/uvm_spi_wrapper/RAM_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ram_if
+
+Top level modules:
+	--none--
+
+} {} {}}
