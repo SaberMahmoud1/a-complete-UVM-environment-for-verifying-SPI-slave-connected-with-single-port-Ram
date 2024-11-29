@@ -1,0 +1,222 @@
+{C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_sequencer.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_sequencer.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequencer_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_sequence_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_sequencer.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_driver.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_driver.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_driver_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_driver.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ram_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_only_read_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_only_read_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package main_seq2
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_only_read_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_G_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_G_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ram_G_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_read_write_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_read_write_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package main_seq3
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_read_write_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_assirtions.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_assirtions.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ram_assertions
+
+Top level modules:
+	ram_assertions
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_if.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_if.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling interface ram_if
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_agent.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_agent.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_config_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_agent.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_monitor.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_monitor.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_monitor
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_monitor.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Dp_Sync_RAM
+
+Top level modules:
+	Dp_Sync_RAM
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_env.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_env.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_env_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_sequence_pkg
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_config_pkg
+-- Importing package ram_scoreboard_pak
+-- Importing package ram_coverage_pkg
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_env.sv(6): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/top_module.sv} {2 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/top_module.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/top_module.sv(2): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+** Warning: C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/top_module.sv(1): (vlog-13233) Design unit "top_module_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+-- Compiling package top_module_sv_unit
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package ram_test_pkg
+-- Importing package ram_config_pkg
+-- Importing package main_seq1
+-- Importing package ram_sequence_pkg
+-- Importing package main_seq2
+-- Importing package main_seq3
+-- Importing package reset_seq
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_scoreboard_pak
+-- Importing package ram_coverage_pkg
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_sequence.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_sequence.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_sequence.sv(8): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_coverage_collector.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_coverage_collector.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_coverage_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_coverage_collector.sv(3): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ram_sequence_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_reset_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_reset_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package reset_seq
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_reset_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_scoreboard.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_scoreboard.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_scoreboard_pak
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_scoreboard.sv(5): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_only_write_seq.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_only_write_seq.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package main_seq1
+-- Importing package ram_sequence_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_only_write_seq.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_test.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_test.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_test_pkg
+-- Importing package ram_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+-- Importing package main_seq1
+-- Importing package ram_sequence_pkg
+-- Importing package main_seq2
+-- Importing package main_seq3
+-- Importing package reset_seq
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_test.sv(10): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+-- Importing package ram_env_pkg
+-- Importing package ram_agent_pkg
+-- Importing package ram_monitor
+-- Importing package ram_driver_pkg
+-- Importing package ram_sequencer_pkg
+-- Importing package ram_scoreboard_pak
+-- Importing package ram_coverage_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_config_obj.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_config_obj.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling package ram_config_pkg
+-- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+** Note: (vlog-2286) C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_config_obj.sv(4): Using implicit +incdir+C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_golden_model.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/saber/digital_course/verification/UVM final project/UVM_DUAL_PORT_RAM/RAM_golden_model.sv}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RAM_GOLD
+
+Top level modules:
+	RAM_GOLD
+
+} {} {}}

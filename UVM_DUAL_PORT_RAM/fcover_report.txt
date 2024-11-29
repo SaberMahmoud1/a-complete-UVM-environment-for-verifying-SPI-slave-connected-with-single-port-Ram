@@ -1,0 +1,526 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT/DUT2
+=== Design Unit: work.ram_assertions
+=================================================================================
+
+Directive Coverage:
+    Directives                       1         1         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/DUT2/cover__p3                  ram_assertions Verilog  SVA  RAM_assirtions.sv(7)
+                                                                              4138 Covered   
+
+=================================================================================
+=== Instance: /top/DUT
+=== Design Unit: work.Dp_Sync_RAM
+=================================================================================
+
+Directive Coverage:
+    Directives                       2         2         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/cover__p2                       Dp_Sync_RAM Verilog  SVA  RAM.sv(49)      4154 Covered   
+/top/DUT/cover__p1                       Dp_Sync_RAM Verilog  SVA  RAM.sv(45)       457 Covered   
+
+=================================================================================
+=== Instance: /ram_coverage_pkg
+=== Design Unit: work.ram_coverage_pkg
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      1        na        na   100.00%
+        Coverpoints/Crosses          6        na        na        na
+            Covergroup Bins        200       200         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ram_coverage_pkg/ram_coverage/cvr              100.00%        100          -    Covered              
+    covered/total bins:                                   200        200          -                      
+    missing/total bins:                                     0        200          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin enabled                                     14861          1          -    Covered              
+        bin disabled                                      138          1          -    Covered              
+    Coverpoint operation_cov                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_data                                   4186          1          -    Covered              
+        bin read_data                                    4176          1          -    Covered              
+        bin write_add                                    3322          1          -    Covered              
+        bin read_add                                     3315          1          -    Covered              
+    Coverpoint write_add_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0:3]                                      40          1          -    Covered              
+        bin auto[4:7]                                      40          1          -    Covered              
+        bin auto[8:11]                                     50          1          -    Covered              
+        bin auto[12:15]                                    58          1          -    Covered              
+        bin auto[16:19]                                    52          1          -    Covered              
+        bin auto[20:23]                                    54          1          -    Covered              
+        bin auto[24:27]                                    36          1          -    Covered              
+        bin auto[28:31]                                    48          1          -    Covered              
+        bin auto[32:35]                                    60          1          -    Covered              
+        bin auto[36:39]                                    55          1          -    Covered              
+        bin auto[40:43]                                    66          1          -    Covered              
+        bin auto[44:47]                                    58          1          -    Covered              
+        bin auto[48:51]                                    57          1          -    Covered              
+        bin auto[52:55]                                    55          1          -    Covered              
+        bin auto[56:59]                                    55          1          -    Covered              
+        bin auto[60:63]                                    54          1          -    Covered              
+        bin auto[64:67]                                    59          1          -    Covered              
+        bin auto[68:71]                                    58          1          -    Covered              
+        bin auto[72:75]                                    68          1          -    Covered              
+        bin auto[76:79]                                    58          1          -    Covered              
+        bin auto[80:83]                                    50          1          -    Covered              
+        bin auto[84:87]                                    54          1          -    Covered              
+        bin auto[88:91]                                    58          1          -    Covered              
+        bin auto[92:95]                                    47          1          -    Covered              
+        bin auto[96:99]                                    68          1          -    Covered              
+        bin auto[100:103]                                  55          1          -    Covered              
+        bin auto[104:107]                                  50          1          -    Covered              
+        bin auto[108:111]                                  37          1          -    Covered              
+        bin auto[112:115]                                  47          1          -    Covered              
+        bin auto[116:119]                                  53          1          -    Covered              
+        bin auto[120:123]                                  59          1          -    Covered              
+        bin auto[124:127]                                  47          1          -    Covered              
+        bin auto[128:131]                                  64          1          -    Covered              
+        bin auto[132:135]                                  46          1          -    Covered              
+        bin auto[136:139]                                  56          1          -    Covered              
+        bin auto[140:143]                                  42          1          -    Covered              
+        bin auto[144:147]                                  47          1          -    Covered              
+        bin auto[148:151]                                  56          1          -    Covered              
+        bin auto[152:155]                                  54          1          -    Covered              
+        bin auto[156:159]                                  50          1          -    Covered              
+        bin auto[160:163]                                  60          1          -    Covered              
+        bin auto[164:167]                                  49          1          -    Covered              
+        bin auto[168:171]                                  67          1          -    Covered              
+        bin auto[172:175]                                  47          1          -    Covered              
+        bin auto[176:179]                                  48          1          -    Covered              
+        bin auto[180:183]                                  53          1          -    Covered              
+        bin auto[184:187]                                  42          1          -    Covered              
+        bin auto[188:191]                                  47          1          -    Covered              
+        bin auto[192:195]                                  41          1          -    Covered              
+        bin auto[196:199]                                  48          1          -    Covered              
+        bin auto[200:203]                                  54          1          -    Covered              
+        bin auto[204:207]                                  50          1          -    Covered              
+        bin auto[208:211]                                  59          1          -    Covered              
+        bin auto[212:215]                                  51          1          -    Covered              
+        bin auto[216:219]                                  55          1          -    Covered              
+        bin auto[220:223]                                  42          1          -    Covered              
+        bin auto[224:227]                                  43          1          -    Covered              
+        bin auto[228:231]                                  50          1          -    Covered              
+        bin auto[232:235]                                  47          1          -    Covered              
+        bin auto[236:239]                                  49          1          -    Covered              
+        bin auto[240:243]                                  56          1          -    Covered              
+        bin auto[244:247]                                  48          1          -    Covered              
+        bin auto[248:251]                                  46          1          -    Covered              
+        bin auto[252:255]                                  49          1          -    Covered              
+    Coverpoint read_add_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0:3]                                      55          1          -    Covered              
+        bin auto[4:7]                                      56          1          -    Covered              
+        bin auto[8:11]                                     45          1          -    Covered              
+        bin auto[12:15]                                    53          1          -    Covered              
+        bin auto[16:19]                                    45          1          -    Covered              
+        bin auto[20:23]                                    50          1          -    Covered              
+        bin auto[24:27]                                    55          1          -    Covered              
+        bin auto[28:31]                                    47          1          -    Covered              
+        bin auto[32:35]                                    43          1          -    Covered              
+        bin auto[36:39]                                    44          1          -    Covered              
+        bin auto[40:43]                                    42          1          -    Covered              
+        bin auto[44:47]                                    48          1          -    Covered              
+        bin auto[48:51]                                    52          1          -    Covered              
+        bin auto[52:55]                                    59          1          -    Covered              
+        bin auto[56:59]                                    54          1          -    Covered              
+        bin auto[60:63]                                    55          1          -    Covered              
+        bin auto[64:67]                                    45          1          -    Covered              
+        bin auto[68:71]                                    57          1          -    Covered              
+        bin auto[72:75]                                    56          1          -    Covered              
+        bin auto[76:79]                                    54          1          -    Covered              
+        bin auto[80:83]                                    47          1          -    Covered              
+        bin auto[84:87]                                    45          1          -    Covered              
+        bin auto[88:91]                                    47          1          -    Covered              
+        bin auto[92:95]                                    60          1          -    Covered              
+        bin auto[96:99]                                    43          1          -    Covered              
+        bin auto[100:103]                                  49          1          -    Covered              
+        bin auto[104:107]                                  61          1          -    Covered              
+        bin auto[108:111]                                  48          1          -    Covered              
+        bin auto[112:115]                                  58          1          -    Covered              
+        bin auto[116:119]                                  46          1          -    Covered              
+        bin auto[120:123]                                  54          1          -    Covered              
+        bin auto[124:127]                                  53          1          -    Covered              
+        bin auto[128:131]                                  47          1          -    Covered              
+        bin auto[132:135]                                  56          1          -    Covered              
+        bin auto[136:139]                                  50          1          -    Covered              
+        bin auto[140:143]                                  47          1          -    Covered              
+        bin auto[144:147]                                  47          1          -    Covered              
+        bin auto[148:151]                                  36          1          -    Covered              
+        bin auto[152:155]                                  54          1          -    Covered              
+        bin auto[156:159]                                  53          1          -    Covered              
+        bin auto[160:163]                                  68          1          -    Covered              
+        bin auto[164:167]                                  54          1          -    Covered              
+        bin auto[168:171]                                  51          1          -    Covered              
+        bin auto[172:175]                                  63          1          -    Covered              
+        bin auto[176:179]                                  63          1          -    Covered              
+        bin auto[180:183]                                  51          1          -    Covered              
+        bin auto[184:187]                                  58          1          -    Covered              
+        bin auto[188:191]                                  58          1          -    Covered              
+        bin auto[192:195]                                  60          1          -    Covered              
+        bin auto[196:199]                                  39          1          -    Covered              
+        bin auto[200:203]                                  51          1          -    Covered              
+        bin auto[204:207]                                  64          1          -    Covered              
+        bin auto[208:211]                                  58          1          -    Covered              
+        bin auto[212:215]                                  44          1          -    Covered              
+        bin auto[216:219]                                  55          1          -    Covered              
+        bin auto[220:223]                                  62          1          -    Covered              
+        bin auto[224:227]                                  55          1          -    Covered              
+        bin auto[228:231]                                  61          1          -    Covered              
+        bin auto[232:235]                                  42          1          -    Covered              
+        bin auto[236:239]                                  56          1          -    Covered              
+        bin auto[240:243]                                  49          1          -    Covered              
+        bin auto[244:247]                                  43          1          -    Covered              
+        bin auto[248:251]                                  45          1          -    Covered              
+        bin auto[252:255]                                  49          1          -    Covered              
+    Coverpoint tx_valid_cv                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin enabled                                      4175          1          -    Covered              
+        bin disabled                                    10825          1          -    Covered              
+    Coverpoint dout_cv                                100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0:3]                                    5035          1          -    Covered              
+        bin auto[4:7]                                      38          1          -    Covered              
+        bin auto[8:11]                                    248          1          -    Covered              
+        bin auto[12:15]                                   166          1          -    Covered              
+        bin auto[16:19]                                    42          1          -    Covered              
+        bin auto[20:23]                                   169          1          -    Covered              
+        bin auto[24:27]                                   126          1          -    Covered              
+        bin auto[28:31]                                    80          1          -    Covered              
+        bin auto[32:35]                                   154          1          -    Covered              
+        bin auto[36:39]                                   201          1          -    Covered              
+        bin auto[40:43]                                   239          1          -    Covered              
+        bin auto[44:47]                                   111          1          -    Covered              
+        bin auto[48:51]                                   131          1          -    Covered              
+        bin auto[52:55]                                   128          1          -    Covered              
+        bin auto[56:59]                                   157          1          -    Covered              
+        bin auto[60:63]                                   162          1          -    Covered              
+        bin auto[64:67]                                    73          1          -    Covered              
+        bin auto[68:71]                                   165          1          -    Covered              
+        bin auto[72:75]                                   301          1          -    Covered              
+        bin auto[76:79]                                   219          1          -    Covered              
+        bin auto[80:83]                                   202          1          -    Covered              
+        bin auto[84:87]                                   183          1          -    Covered              
+        bin auto[88:91]                                   232          1          -    Covered              
+        bin auto[92:95]                                   205          1          -    Covered              
+        bin auto[96:99]                                    66          1          -    Covered              
+        bin auto[100:103]                                 323          1          -    Covered              
+        bin auto[104:107]                                 211          1          -    Covered              
+        bin auto[108:111]                                 172          1          -    Covered              
+        bin auto[112:115]                                 258          1          -    Covered              
+        bin auto[116:119]                                  92          1          -    Covered              
+        bin auto[120:123]                                 160          1          -    Covered              
+        bin auto[124:127]                                  40          1          -    Covered              
+        bin auto[128:131]                                 237          1          -    Covered              
+        bin auto[132:135]                                 162          1          -    Covered              
+        bin auto[136:139]                                 180          1          -    Covered              
+        bin auto[140:143]                                 195          1          -    Covered              
+        bin auto[144:147]                                 160          1          -    Covered              
+        bin auto[148:151]                                 158          1          -    Covered              
+        bin auto[152:155]                                 181          1          -    Covered              
+        bin auto[156:159]                                 176          1          -    Covered              
+        bin auto[160:163]                                 219          1          -    Covered              
+        bin auto[164:167]                                 122          1          -    Covered              
+        bin auto[168:171]                                  66          1          -    Covered              
+        bin auto[172:175]                                 152          1          -    Covered              
+        bin auto[176:179]                                  82          1          -    Covered              
+        bin auto[180:183]                                 169          1          -    Covered              
+        bin auto[184:187]                                 119          1          -    Covered              
+        bin auto[188:191]                                 162          1          -    Covered              
+        bin auto[192:195]                                 151          1          -    Covered              
+        bin auto[196:199]                                 158          1          -    Covered              
+        bin auto[200:203]                                 226          1          -    Covered              
+        bin auto[204:207]                                 244          1          -    Covered              
+        bin auto[208:211]                                 120          1          -    Covered              
+        bin auto[212:215]                                 146          1          -    Covered              
+        bin auto[216:219]                                  93          1          -    Covered              
+        bin auto[220:223]                                  89          1          -    Covered              
+        bin auto[224:227]                                 228          1          -    Covered              
+        bin auto[228:231]                                 135          1          -    Covered              
+        bin auto[232:235]                                 257          1          -    Covered              
+        bin auto[236:239]                                  79          1          -    Covered              
+        bin auto[240:243]                                  70          1          -    Covered              
+        bin auto[244:247]                                  99          1          -    Covered              
+        bin auto[248:251]                                 155          1          -    Covered              
+        bin auto[252:255]                                 121          1          -    Covered              
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /ram_coverage_pkg/ram_coverage/cvr              100.00%        100          -    Covered              
+    covered/total bins:                                   200        200          -                      
+    missing/total bins:                                     0        200          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint rx_valid_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin enabled                                     14861          1          -    Covered              
+        bin disabled                                      138          1          -    Covered              
+    Coverpoint operation_cov                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin write_data                                   4186          1          -    Covered              
+        bin read_data                                    4176          1          -    Covered              
+        bin write_add                                    3322          1          -    Covered              
+        bin read_add                                     3315          1          -    Covered              
+    Coverpoint write_add_cp                           100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0:3]                                      40          1          -    Covered              
+        bin auto[4:7]                                      40          1          -    Covered              
+        bin auto[8:11]                                     50          1          -    Covered              
+        bin auto[12:15]                                    58          1          -    Covered              
+        bin auto[16:19]                                    52          1          -    Covered              
+        bin auto[20:23]                                    54          1          -    Covered              
+        bin auto[24:27]                                    36          1          -    Covered              
+        bin auto[28:31]                                    48          1          -    Covered              
+        bin auto[32:35]                                    60          1          -    Covered              
+        bin auto[36:39]                                    55          1          -    Covered              
+        bin auto[40:43]                                    66          1          -    Covered              
+        bin auto[44:47]                                    58          1          -    Covered              
+        bin auto[48:51]                                    57          1          -    Covered              
+        bin auto[52:55]                                    55          1          -    Covered              
+        bin auto[56:59]                                    55          1          -    Covered              
+        bin auto[60:63]                                    54          1          -    Covered              
+        bin auto[64:67]                                    59          1          -    Covered              
+        bin auto[68:71]                                    58          1          -    Covered              
+        bin auto[72:75]                                    68          1          -    Covered              
+        bin auto[76:79]                                    58          1          -    Covered              
+        bin auto[80:83]                                    50          1          -    Covered              
+        bin auto[84:87]                                    54          1          -    Covered              
+        bin auto[88:91]                                    58          1          -    Covered              
+        bin auto[92:95]                                    47          1          -    Covered              
+        bin auto[96:99]                                    68          1          -    Covered              
+        bin auto[100:103]                                  55          1          -    Covered              
+        bin auto[104:107]                                  50          1          -    Covered              
+        bin auto[108:111]                                  37          1          -    Covered              
+        bin auto[112:115]                                  47          1          -    Covered              
+        bin auto[116:119]                                  53          1          -    Covered              
+        bin auto[120:123]                                  59          1          -    Covered              
+        bin auto[124:127]                                  47          1          -    Covered              
+        bin auto[128:131]                                  64          1          -    Covered              
+        bin auto[132:135]                                  46          1          -    Covered              
+        bin auto[136:139]                                  56          1          -    Covered              
+        bin auto[140:143]                                  42          1          -    Covered              
+        bin auto[144:147]                                  47          1          -    Covered              
+        bin auto[148:151]                                  56          1          -    Covered              
+        bin auto[152:155]                                  54          1          -    Covered              
+        bin auto[156:159]                                  50          1          -    Covered              
+        bin auto[160:163]                                  60          1          -    Covered              
+        bin auto[164:167]                                  49          1          -    Covered              
+        bin auto[168:171]                                  67          1          -    Covered              
+        bin auto[172:175]                                  47          1          -    Covered              
+        bin auto[176:179]                                  48          1          -    Covered              
+        bin auto[180:183]                                  53          1          -    Covered              
+        bin auto[184:187]                                  42          1          -    Covered              
+        bin auto[188:191]                                  47          1          -    Covered              
+        bin auto[192:195]                                  41          1          -    Covered              
+        bin auto[196:199]                                  48          1          -    Covered              
+        bin auto[200:203]                                  54          1          -    Covered              
+        bin auto[204:207]                                  50          1          -    Covered              
+        bin auto[208:211]                                  59          1          -    Covered              
+        bin auto[212:215]                                  51          1          -    Covered              
+        bin auto[216:219]                                  55          1          -    Covered              
+        bin auto[220:223]                                  42          1          -    Covered              
+        bin auto[224:227]                                  43          1          -    Covered              
+        bin auto[228:231]                                  50          1          -    Covered              
+        bin auto[232:235]                                  47          1          -    Covered              
+        bin auto[236:239]                                  49          1          -    Covered              
+        bin auto[240:243]                                  56          1          -    Covered              
+        bin auto[244:247]                                  48          1          -    Covered              
+        bin auto[248:251]                                  46          1          -    Covered              
+        bin auto[252:255]                                  49          1          -    Covered              
+    Coverpoint read_add_cp                            100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0:3]                                      55          1          -    Covered              
+        bin auto[4:7]                                      56          1          -    Covered              
+        bin auto[8:11]                                     45          1          -    Covered              
+        bin auto[12:15]                                    53          1          -    Covered              
+        bin auto[16:19]                                    45          1          -    Covered              
+        bin auto[20:23]                                    50          1          -    Covered              
+        bin auto[24:27]                                    55          1          -    Covered              
+        bin auto[28:31]                                    47          1          -    Covered              
+        bin auto[32:35]                                    43          1          -    Covered              
+        bin auto[36:39]                                    44          1          -    Covered              
+        bin auto[40:43]                                    42          1          -    Covered              
+        bin auto[44:47]                                    48          1          -    Covered              
+        bin auto[48:51]                                    52          1          -    Covered              
+        bin auto[52:55]                                    59          1          -    Covered              
+        bin auto[56:59]                                    54          1          -    Covered              
+        bin auto[60:63]                                    55          1          -    Covered              
+        bin auto[64:67]                                    45          1          -    Covered              
+        bin auto[68:71]                                    57          1          -    Covered              
+        bin auto[72:75]                                    56          1          -    Covered              
+        bin auto[76:79]                                    54          1          -    Covered              
+        bin auto[80:83]                                    47          1          -    Covered              
+        bin auto[84:87]                                    45          1          -    Covered              
+        bin auto[88:91]                                    47          1          -    Covered              
+        bin auto[92:95]                                    60          1          -    Covered              
+        bin auto[96:99]                                    43          1          -    Covered              
+        bin auto[100:103]                                  49          1          -    Covered              
+        bin auto[104:107]                                  61          1          -    Covered              
+        bin auto[108:111]                                  48          1          -    Covered              
+        bin auto[112:115]                                  58          1          -    Covered              
+        bin auto[116:119]                                  46          1          -    Covered              
+        bin auto[120:123]                                  54          1          -    Covered              
+        bin auto[124:127]                                  53          1          -    Covered              
+        bin auto[128:131]                                  47          1          -    Covered              
+        bin auto[132:135]                                  56          1          -    Covered              
+        bin auto[136:139]                                  50          1          -    Covered              
+        bin auto[140:143]                                  47          1          -    Covered              
+        bin auto[144:147]                                  47          1          -    Covered              
+        bin auto[148:151]                                  36          1          -    Covered              
+        bin auto[152:155]                                  54          1          -    Covered              
+        bin auto[156:159]                                  53          1          -    Covered              
+        bin auto[160:163]                                  68          1          -    Covered              
+        bin auto[164:167]                                  54          1          -    Covered              
+        bin auto[168:171]                                  51          1          -    Covered              
+        bin auto[172:175]                                  63          1          -    Covered              
+        bin auto[176:179]                                  63          1          -    Covered              
+        bin auto[180:183]                                  51          1          -    Covered              
+        bin auto[184:187]                                  58          1          -    Covered              
+        bin auto[188:191]                                  58          1          -    Covered              
+        bin auto[192:195]                                  60          1          -    Covered              
+        bin auto[196:199]                                  39          1          -    Covered              
+        bin auto[200:203]                                  51          1          -    Covered              
+        bin auto[204:207]                                  64          1          -    Covered              
+        bin auto[208:211]                                  58          1          -    Covered              
+        bin auto[212:215]                                  44          1          -    Covered              
+        bin auto[216:219]                                  55          1          -    Covered              
+        bin auto[220:223]                                  62          1          -    Covered              
+        bin auto[224:227]                                  55          1          -    Covered              
+        bin auto[228:231]                                  61          1          -    Covered              
+        bin auto[232:235]                                  42          1          -    Covered              
+        bin auto[236:239]                                  56          1          -    Covered              
+        bin auto[240:243]                                  49          1          -    Covered              
+        bin auto[244:247]                                  43          1          -    Covered              
+        bin auto[248:251]                                  45          1          -    Covered              
+        bin auto[252:255]                                  49          1          -    Covered              
+    Coverpoint tx_valid_cv                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin enabled                                      4175          1          -    Covered              
+        bin disabled                                    10825          1          -    Covered              
+    Coverpoint dout_cv                                100.00%        100          -    Covered              
+        covered/total bins:                                64         64          -                      
+        missing/total bins:                                 0         64          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0:3]                                    5035          1          -    Covered              
+        bin auto[4:7]                                      38          1          -    Covered              
+        bin auto[8:11]                                    248          1          -    Covered              
+        bin auto[12:15]                                   166          1          -    Covered              
+        bin auto[16:19]                                    42          1          -    Covered              
+        bin auto[20:23]                                   169          1          -    Covered              
+        bin auto[24:27]                                   126          1          -    Covered              
+        bin auto[28:31]                                    80          1          -    Covered              
+        bin auto[32:35]                                   154          1          -    Covered              
+        bin auto[36:39]                                   201          1          -    Covered              
+        bin auto[40:43]                                   239          1          -    Covered              
+        bin auto[44:47]                                   111          1          -    Covered              
+        bin auto[48:51]                                   131          1          -    Covered              
+        bin auto[52:55]                                   128          1          -    Covered              
+        bin auto[56:59]                                   157          1          -    Covered              
+        bin auto[60:63]                                   162          1          -    Covered              
+        bin auto[64:67]                                    73          1          -    Covered              
+        bin auto[68:71]                                   165          1          -    Covered              
+        bin auto[72:75]                                   301          1          -    Covered              
+        bin auto[76:79]                                   219          1          -    Covered              
+        bin auto[80:83]                                   202          1          -    Covered              
+        bin auto[84:87]                                   183          1          -    Covered              
+        bin auto[88:91]                                   232          1          -    Covered              
+        bin auto[92:95]                                   205          1          -    Covered              
+        bin auto[96:99]                                    66          1          -    Covered              
+        bin auto[100:103]                                 323          1          -    Covered              
+        bin auto[104:107]                                 211          1          -    Covered              
+        bin auto[108:111]                                 172          1          -    Covered              
+        bin auto[112:115]                                 258          1          -    Covered              
+        bin auto[116:119]                                  92          1          -    Covered              
+        bin auto[120:123]                                 160          1          -    Covered              
+        bin auto[124:127]                                  40          1          -    Covered              
+        bin auto[128:131]                                 237          1          -    Covered              
+        bin auto[132:135]                                 162          1          -    Covered              
+        bin auto[136:139]                                 180          1          -    Covered              
+        bin auto[140:143]                                 195          1          -    Covered              
+        bin auto[144:147]                                 160          1          -    Covered              
+        bin auto[148:151]                                 158          1          -    Covered              
+        bin auto[152:155]                                 181          1          -    Covered              
+        bin auto[156:159]                                 176          1          -    Covered              
+        bin auto[160:163]                                 219          1          -    Covered              
+        bin auto[164:167]                                 122          1          -    Covered              
+        bin auto[168:171]                                  66          1          -    Covered              
+        bin auto[172:175]                                 152          1          -    Covered              
+        bin auto[176:179]                                  82          1          -    Covered              
+        bin auto[180:183]                                 169          1          -    Covered              
+        bin auto[184:187]                                 119          1          -    Covered              
+        bin auto[188:191]                                 162          1          -    Covered              
+        bin auto[192:195]                                 151          1          -    Covered              
+        bin auto[196:199]                                 158          1          -    Covered              
+        bin auto[200:203]                                 226          1          -    Covered              
+        bin auto[204:207]                                 244          1          -    Covered              
+        bin auto[208:211]                                 120          1          -    Covered              
+        bin auto[212:215]                                 146          1          -    Covered              
+        bin auto[216:219]                                  93          1          -    Covered              
+        bin auto[220:223]                                  89          1          -    Covered              
+        bin auto[224:227]                                 228          1          -    Covered              
+        bin auto[228:231]                                 135          1          -    Covered              
+        bin auto[232:235]                                 257          1          -    Covered              
+        bin auto[236:239]                                  79          1          -    Covered              
+        bin auto[240:243]                                  70          1          -    Covered              
+        bin auto[244:247]                                  99          1          -    Covered              
+        bin auto[248:251]                                 155          1          -    Covered              
+        bin auto[252:255]                                 121          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/cover__p2                       Dp_Sync_RAM Verilog  SVA  RAM.sv(49)      4154 Covered   
+/top/DUT/cover__p1                       Dp_Sync_RAM Verilog  SVA  RAM.sv(45)       457 Covered   
+/top/DUT/DUT2/cover__p3                  ram_assertions Verilog  SVA  RAM_assirtions.sv(7)
+                                                                              4138 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 3
+
+Total Coverage By Instance (filtered view): 100.00%
+
